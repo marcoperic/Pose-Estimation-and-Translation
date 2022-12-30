@@ -3,7 +3,6 @@ import cv2
 import time
 
 detector = posecamera.pose_tracker.PoseTracker()
-# image = cv2.imread("data/input.jpg")
 video_stream = cv2.VideoCapture(0)
 
 while True:
